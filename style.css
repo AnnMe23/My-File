@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
 * {
 	padding: 0;
 	margin: 0;
@@ -473,7 +474,7 @@ p {
 
 /* Program Section */
 #program {
-	background-image: url(end.GIF);
+	background-image: url(end.gif);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -800,6 +801,4 @@ p {
 {
   box-sizing: border-box;
 }
-
-
 /* End  Media Query For Desktop */

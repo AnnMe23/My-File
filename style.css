@@ -474,6 +474,12 @@ p {
 
 /* Program section */
 #program {
+	background-image: url(club.jpg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+#program {
 	background-image: url(end.GIF);
 	background-size: cover;
 	background-position: top center;
@@ -550,7 +556,7 @@ p {
 	transform: scale(1.1);
 }
 
-/* End Projects section */
+/* End Program section */
 
 
 

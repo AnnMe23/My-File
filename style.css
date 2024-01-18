@@ -473,12 +473,7 @@ p {
 /* End About Section */
 
 /* Program section */
-#program {
-	background-image: url(club.jpg);
-	background-size: cover;
-	background-position: top center;
-	position: relative;
-	z-index: 1;
+
 #program {
 	background-image: url(end.GIF);
 	background-size: cover;
@@ -511,9 +506,9 @@ p {
 	border-radius: 10px;
 }
 #program .program-info {
-	padding: 40px;
-	flex-basis: 60%;
-	height: 200%;
+	padding: 30px;
+	flex-basis: 50%;
+	height: 100%;
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
@@ -544,8 +539,8 @@ p {
 	position: absolute;
 	left: 0;
 	top: 0;
-	height: 200%;
-	width: 200%;
+	height: 100%;
+	width: 100%;
 	
 	opacity: 0.7;
 }

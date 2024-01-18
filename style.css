@@ -336,13 +336,6 @@ p {
 /* End Services Section */
 
 /* Projects section */
-#projects {
-	background-image: url(pixel.jpg);
-	background-size: cover;
-	background-position: top center;
-	position: relative;
-	z-index: 1;
-}
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
@@ -357,23 +350,21 @@ p {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	
-
 }
 #projects .project-item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	width: 400%;
-	margin: 90px auto;
+	width: 80%;
+	margin: 20px auto;
 	overflow: hidden;
-	border-radius: 40px;
+	border-radius: 10px;
 }
 #projects .project-info {
-	padding: 400px;
-	flex-basis: 100%;
-	height: 160%;
+	padding: 30px;
+	flex-basis: 50%;
+	height: 100%;
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
@@ -383,19 +374,19 @@ p {
 }
 #projects .project-info h1 {
 	font-size: 4rem;
-	font-weight: 900;
+	font-weight: 500;
 }
 #projects .project-info h2 {
-	font-size: 1.6rem;
-	font-weight:600;
-	margin-top: 15px;
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 10px;
 }
 #projects .project-info p {
 	color: white;
 }
 #projects .project-img {
 	flex-basis: 50%;
-	height: 400px;
+	height: 300px;
 	overflow: hidden;
 	position: relative;
 }
@@ -473,7 +464,6 @@ p {
 /* End About Section */
 
 /* Program section */
-
 #program {
 	background-image: url(end.GIF);
 	background-size: cover;
@@ -520,7 +510,7 @@ p {
 	font-size: 4rem;
 	font-weight: 500;
 }
-#program .program-info h2 {
+#program .-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
@@ -534,14 +524,14 @@ p {
 	overflow: hidden;
 	position: relative;
 }
-#program .program-img:after {
+#program .-img:after {
 	content: '';
 	position: absolute;
 	left: 0;
 	top: 0;
 	height: 100%;
 	width: 100%;
-	
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: 0.7;
 }
 #program .program-img img {
@@ -550,8 +540,8 @@ p {
 #program .program-item:hover .program-img img {
 	transform: scale(1.1);
 }
-
 /* End Program section */
+
 
 
 
